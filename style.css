@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(0, 0%, 0%,0.856);
+    background-image: url("https://wallpaper.forfun.com/fetch/1c/1c04df6e1b46e1ec0bf536b26689992c.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+}
+header{
+    height:70px;
+    background-color: rgb(18, 27, 53);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    position: fixed;
+    align-items: center;
+    
+}
+#navbar{
+    display: inline;
+    margin-right: 171px;
+}
+a{
+    margin-right: 190px;
+    color: white;
+}
+#mainname{
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-right: 145px;
+    
+}
+button{
+    background-color: black;
+    color: white;
+}
+input{
+    background-color: rgb(157, 190, 219);
+    color: black;
+}
+#box1{
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 30px;
+    display: inline-block;
+    border-color: white;
+    box-sizing: border-box; 
+    border: 8px double gray; 
+    margin-bottom: 50px;
+   
+}
+#waste{
+    background-color: black;
+    height: 70px;
+    width:1535px;
+    
+}
+img{
+    
+    align-items: center ;
+    padding-left: 18px;
+}
+
+
+.thumbnail { 
+    height: 250px;
+    width: 250px;
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    transition-property: all; 
+    transition-property: 0.3s; 
+    transition-property: ease; 
+    } 
+    
+    /*change the number below to scale to the appropriate size*/ 
+    .thumbnail:hover { 
+    transform: scale(1.2); 
+    
+    }
+
+#namegame1{
+    color: rgb(15, 16, 64);
+    text-align: center;
+    padding-top: 0PX;
+    font-size: 15PX;
+    font-style: oblique;
+    background-color: aliceblue;
+    
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 0%,0.856);
+    background-image: url("https://wallpaper.forfun.com/fetch/1c/1c04df6e1b46e1ec0bf536b26689992c.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+}
+
+#photo{
+    margin-top: 50PX;
+    margin-left: 90PX;
+   color: #fffefe;
+    height: 400px;
+    width: 400px;
+    
+    display: inline;
+    
+}
+H1{
+    
+    text-align: center;
+    color: rgb(205, 210, 176);
+    margin-top: 50PX;
+    border: 4PX SOLID black;
+    font-size: 35PX;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#pho{
+    height:400px;
+    width: 320px;
+    margin-left: 40px;
+    cursor:pointer; 
+    transition-property: all; 
+    transition-property: 0.1s; 
+    transition-property: ease; 
+    border-radius: 50%;
+}
+#pho:hover { 
+    transform: scale(1.2);
+}
+footer{
+    margin-top: 45px;
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+#last{
+    text-align: center;
+    font-size: 30px;
+}
+#last2{
+    text-align: end;
+}
+form{
+    display:inline-block;
+    height: 200px;
+    width: 300px;
+}
+
